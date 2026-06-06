@@ -1,0 +1,15 @@
+# ABOUTME: Cargo configuration for the Minivac 601 emulator.
+# ABOUTME: Specifies eframe, uuid, and serde as core dependencies.
+
+[package]
+name = "oxide-601"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.27.2"
+egui = "0.27.2"
+uuid = { version = "1.8", features = ["v4", "serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
